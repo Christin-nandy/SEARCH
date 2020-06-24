@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Injectable } from '@angular/core';
 import { FormsModule } from '@angular/forms'
+import { Repos } from '../repos';
 
 
 @Component({
