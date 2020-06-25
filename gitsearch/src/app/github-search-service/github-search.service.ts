@@ -4,8 +4,12 @@ import { Users } from '../users';
 import { Repos } from '../repos';
 import { environment } from 'src/environments/environment';
 
+@Injectable({
+    providedIn: 'root'
+  })
+
 export class GithubSearchService {
-    user: Users;
+  user: Users;
   repo: Repos;
   newRepo: any;
   newUser: any;

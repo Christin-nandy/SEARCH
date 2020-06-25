@@ -1,0 +1,16 @@
+.container{
+    background-position: left;
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+.form-group{
+    padding-top: 40px;
+    text-align: center;
+}
+.panel-footer{
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
